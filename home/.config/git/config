@@ -1,0 +1,14 @@
+# Portable Git behaviour only. Set user.name, user.email, signing, and any
+# credential helper in a machine-local Git include outside this repository.
+[core]
+    pager = delta
+
+[interactive]
+    diffFilter = delta --color-only
+
+[delta]
+    navigate = true
+    dark = true
+
+[merge]
+    conflictStyle = zdiff3

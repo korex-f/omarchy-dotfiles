@@ -1,0 +1,45 @@
+{
+  "bar": {
+    "centerAnchor": "dki.hijri-calendar",
+    "layout": {
+      "center": [
+        { "id": "omarchy.indicators", "items": ["Dictation", "ScreenRecording", "Reminder", "NightLight", "StayAwake"] },
+        { "id": "njpatel.omapager" },
+        { "id": "omarchy.keyboard-layout" },
+        { "id": "omarchy.weather" },
+        { "id": "io.github.dki.tugboat" },
+        { "id": "io.github.dki.habit" },
+        { "id": "io.github.huligabuliga.omasticky" },
+        { "id": "dki.hijri-calendar", "format": "dddd, d MMMM yyyy · HH:mm" },
+        { "id": "local.prayer-times" },
+        { "id": "omarchy.system-update" }
+      ],
+      "left": [
+        { "id": "omarchy.menu" },
+        { "id": "omarchy.workspaces" },
+        { "id": "crmne.active-window" }
+      ],
+      "right": [
+        { "id": "djjeane.docker-monitor" }, { "id": "omarchy.tray" },
+        { "id": "nixfred.burnbar" }, { "id": "omapdf.bar" },
+        { "id": "com.omastorm.radar" }, { "id": "io.github.jondkinney.omapop" },
+        { "id": "capture-shelf" }, { "id": "omaplug" },
+        { "id": "dki.quran-verse-of-the-day", "translation": "en.sahih", "rotationMode": "both" },
+        { "id": "theme-picker" }, { "id": "robzolkos.github" },
+        { "id": "omarchy.tailscale" }, { "id": "omarchy.bluetooth" },
+        { "id": "omarchy.network" }, { "id": "omarchy.audio" },
+        { "id": "omarchy.monitor" }, { "id": "omarchy.power", "showPercentage": true }
+      ]
+    },
+    "position": "top",
+    "transparent": false
+  },
+  "idle": { "lock": 300, "screensaver": 150 },
+  "disabledPlugins": ["omarchy.notifications", "jankeesvw.notification-center"],
+  "plugins": [
+    { "id": "shell.settings" }, { "id": "io.github.dki.agentdeck" },
+    { "id": "slcode777.omaconv" }, { "id": "njpatel.omapager" },
+    { "id": "fkcodes.key-promoter" }, { "id": "io.github.mtolhuys.fathom" }
+  ],
+  "version": 1
+}

@@ -1,0 +1,116 @@
+schema_version = 1
+# Every package in the audited lists belongs to exactly one component.
+# Categories describe purpose; default is a proposed UI baseline, not consent.
+[[component]]
+id = "system"
+name = "Omarchy and desktop capability providers"
+category = "omarchy-system"
+default = true
+pacman = ["omarchy", "omarchy-keyring", "omarchy-settings", "hyprland", "quickshell", "uwsm", "hyprland-guiutils", "hyprland-preview-share-picker", "hyprsunset", "xdg-desktop-portal-gtk", "xdg-desktop-portal-hyprland", "networkmanager", "bluez", "bluez-tools", "bluez-utils", "pipewire", "pipewire-alsa", "pipewire-jack", "pipewire-pulse", "wireplumber", "upower", "power-profiles-daemon"]
+aur = []
+[[component]]
+id = "desktop"
+name = "Desktop utilities"
+category = "desktop"
+default = true
+pacman = ["nautilus", "udiskie", "brightnessctl", "grim", "slurp", "wl-clipboard", "wl-clip-persist", "ttf-fira-code"]
+aur = []
+[[component]]
+id = "kitty"
+name = "Kitty terminal"
+category = "desktop"
+default = true
+pacman = ["kitty"]
+aur = []
+[[component]]
+id = "cli"
+name = "CLI and productivity"
+category = "cli-productivity"
+default = true
+pacman = ["git", "git-delta", "lazygit", "starship", "zoxide", "fzf", "ripgrep", "fd", "eza", "bat", "jq", "yq", "tmux", "tmuxp"]
+aur = []
+[[component]]
+id = "development"
+name = "Development tools and pinned mise agents"
+category = "development"
+default = true
+pacman = ["github-cli", "uv", "mise-bin", "nodejs-lts-iron", "python-pip", "python-ruff", "ruff", "pyright"]
+aur = []
+[[component]]
+id = "nvim"
+name = "Neovim"
+category = "development"
+default = true
+pacman = ["neovim"]
+aur = []
+[[component]]
+id = "zed"
+name = "Zed editor"
+category = "development"
+default = false
+pacman = ["zed"]
+aur = []
+[[component]]
+id = "docker"
+name = "Docker and lazydocker (service/access setup separate)"
+category = "development"
+default = false
+pacman = ["docker", "docker-buildx", "docker-compose", "lazydocker"]
+aur = []
+[[component]]
+id = "terraform"
+name = "Terraform"
+category = "optional"
+default = false
+pacman = ["terraform"]
+aur = []
+[[component]]
+id = "extra-terminals"
+name = "Foot and Alacritty"
+category = "optional"
+default = false
+pacman = ["foot", "alacritty"]
+aur = []
+[[component]]
+id = "ddc"
+name = "External-monitor DDC controls"
+category = "hardware-host-specific"
+default = false
+pacman = ["ddcutil"]
+aur = []
+[[component]]
+id = "brave"
+name = "Brave browser (AUR)"
+category = "desktop"
+default = true
+pacman = []
+aur = ["brave-bin"]
+[[component]]
+id = "zen"
+name = "Zen browser (AUR)"
+category = "desktop"
+default = true
+pacman = []
+aur = ["zen-browser-bin"]
+[[component]]
+id = "workflow"
+name = "Default keyboard workflow applications"
+category = "workflow"
+default = true
+pacman = ["omasnap"]
+aur = ["strata-bin"]
+source_tools = ["learnomarchy"]
+[[component]]
+id = "glyphs"
+name = "Complete Nerd Font glyphs (AUR)"
+category = "desktop"
+default = false
+pacman = []
+aur = ["nerd-fonts-complete-mono-glyphs"]
+[[component]]
+id = "experimental-aur"
+name = "Audited experimental AUR utilities (review before selecting)"
+category = "optional"
+default = false
+pacman = []
+aur = ["disktree-bin", "ruff-lsp", "sidra-bin", "xdman-beta-bin", "zapfast-bin"]

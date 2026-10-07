@@ -1,0 +1,61 @@
+# Theme source inventory; no generated active theme state is stored in this repo.
+schema_version = 1
+audited_at = "2026-09-27"
+active_theme = "sunset"
+
+[[theme]]
+slug="aether"
+upstream=""
+current_revision=""
+desired_revision=""
+status="blocked-missing-git-metadata"
+note="local theme directory; provenance must be established"
+[[theme]]
+slug="artzen"
+upstream="https://github.com/tahfizhabib/omarchy-artzen-theme"
+current_revision="d4255350a0ca7acd3f681b5da49e46bd15f41b9a"
+desired_revision="d4255350a0ca7acd3f681b5da49e46bd15f41b9a"
+status="reproducible"
+[[theme]]
+slug="blackgold"
+upstream="https://github.com/HANCORE-linux/omarchy-blackgold-theme.git"
+current_revision="4c5fff5261e4d65d1d178d9e8bb00f9ab4dfbfc7"
+desired_revision=""
+status="blocked-dirty-worktree"
+[[theme]]
+slug="everblush"
+upstream="https://github.com/Swarnim114/omarchy-everblush-theme.git"
+current_revision="797c6abc92d6363f59bffb33d4ab50c3859aa5bd"
+desired_revision="797c6abc92d6363f59bffb33d4ab50c3859aa5bd"
+status="reproducible"
+[[theme]]
+slug="green-garden"
+upstream="https://github.com/kalk-ak/omarchy-green-garden-theme.git"
+current_revision="bffbe36fcf004b90b130456ad3fabae47d48cccb"
+desired_revision="bffbe36fcf004b90b130456ad3fabae47d48cccb"
+status="reproducible"
+[[theme]]
+slug="lawson-night"
+upstream="https://github.com/phuclh/omarchy-lawson-night-theme.git"
+current_revision="28dfc0086cabb3c7a9032880bdd027e35dd968a0"
+desired_revision="28dfc0086cabb3c7a9032880bdd027e35dd968a0"
+status="reproducible"
+[[theme]]
+slug="mapquest"
+upstream="https://github.com/ItsABigIgloo/omarchy-mapquest-theme.git"
+current_revision="262598215854442321e89ead1b2be61e2697e181"
+desired_revision="262598215854442321e89ead1b2be61e2697e181"
+status="reproducible"
+[[theme]]
+slug="omalaunch-dusk"
+upstream="https://github.com/daniellemky/omarchy-omalaunch-dusk-theme.git"
+current_revision="480acb8f5362a0f3db35c460bbdf3be4699f69f7"
+desired_revision="480acb8f5362a0f3db35c460bbdf3be4699f69f7"
+status="reproducible"
+[[theme]]
+slug="sunset"
+upstream="https://github.com/bjarneo/omarchy-sunset-theme"
+current_revision="dadf1afe228ceb3e8f86ce58f0cd5ff6eb49aa08"
+desired_revision="dadf1afe228ceb3e8f86ce58f0cd5ff6eb49aa08"
+status="reproducible"
+note="active on audited host"

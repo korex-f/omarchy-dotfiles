@@ -1,0 +1,11 @@
+schema_version = 1
+
+[[source_tool]]
+id = "learnomarchy"
+name = "Learnomarchy keybinding trainer"
+upstream = "https://github.com/MaximilianHansen/learnomarchy.git"
+tested_revision = "c8ebb1cece74e75b4d17accd094a4b98280a4bf6"
+tracking_ref = "refs/heads/main"
+update_policy = "check"
+install_path = ".local/share/omarchy-dotfiles/tools/learnomarchy"
+entrypoint = "learnomarchy"

@@ -1,0 +1,8 @@
+[tools]
+claude = "2.1.281"
+codex = "0.156.1"
+gh = "2.101.0"
+opencode = "1.18.32"
+
+[settings.upgrade]
+auto_prune = false

@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "idle": {
+    "screensaver": 150,
+    "lock": 300
+  },
+  "bar": {
+    "position": "top",
+    "transparent": false,
+    "centerAnchor": "dki.hijri-calendar",
+    "layout": {
+      "left": [
+        { "id": "omarchy.menu" },
+        { "id": "tornikegomareli.spaces" },
+        { "id": "crmne.active-window" }
+      ],
+      "center": [
+        { "id": "omarchy.indicators", "items": ["Dictation", "ScreenRecording", "Reminder", "NightLight", "StayAwake"] },
+        { "id": "omarchy.keyboard-layout" },
+        { "id": "omarchy.weather" },
+        { "id": "omarchy.media" },
+        { "id": "omarchy.microphone" },
+        { "id": "io.github.dki.tugboat" },
+        { "id": "io.github.huligabuliga.omasticky" },
+        { "id": "dki.hijri-calendar", "format": "dddd, d MMMM yyyy · HH:mm" },
+        { "id": "local.prayer-times" },
+        { "id": "omarchy.system-update" }
+      ],
+      "right": [
+        { "id": "djjeane.docker-monitor" },
+        { "id": "omarchy.tray" },
+        { "id": "omarchy.agents" },
+        { "id": "tech.greyforge.reprieve" },
+        { "id": "ssandys.galley" },
+        { "id": "nixfred.burnbar", "lanes": "codex", "focus": "", "hero": "budget" },
+        { "id": "com.omastorm.radar" },
+        { "id": "io.github.jondkinney.omapop" },
+        { "id": "omaplug" },
+        { "id": "robzolkos.github" },
+        { "id": "omarchy.tailscale" },
+        { "id": "omarchy.bluetooth" },
+        { "id": "omarchy.network" },
+        { "id": "omarchy.audio" },
+        { "id": "omarchy.monitor" },
+        { "id": "omarchy.power", "showPercentage": true }
+      ]
+    }
+  },
+  "plugins": [
+    { "id": "shell.settings" },
+    { "id": "slcode777.omaconv" },
+    { "id": "fkcodes.key-promoter" },
+    { "id": "io.github.mtolhuys.fathom" }
+  ]
+}

@@ -1,0 +1,11 @@
+# Explicit foreign/AUR packages observed 2026-09-27.
+# Versions are intentionally not encoded here; package-manager lock strategy is undecided.
+brave-bin
+strata-bin
+disktree-bin
+nerd-fonts-complete-mono-glyphs
+ruff-lsp
+sidra-bin
+xdman-beta-bin
+zapfast-bin
+zen-browser-bin

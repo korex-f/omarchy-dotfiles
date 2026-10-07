@@ -1,0 +1,14 @@
+# Compatibility declaration; no migration behaviour is implemented in Phase 1.5.
+schema_version = 1
+dotfiles_schema_version = 1
+tested_on = "2026-09-27"
+
+[desktop]
+omarchy = "4.0.4-1"
+quickshell = "0.3.1-1"
+hyprland = "0.56.2-2"
+
+[contract]
+shell_config_version = 1
+hyprland_config_format = "lua-modules"
+bar_integration = "Omarchy Shell full-bar plugin API"

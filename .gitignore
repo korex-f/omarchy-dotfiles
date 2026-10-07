@@ -1,0 +1,66 @@
+# Secrets and identity material
+.ssh/
+.gnupg/
+.aws/
+.pki/
+.docker/
+.npm/
+**/.env
+**/.env.*
+**/*secret*
+**/*token*
+**/*credential*
+**/*credentials*
+**/*private*key*
+**/id_*
+
+# AI agents and developer credential/runtime state
+.config/omarchy-dotfiles/selections.toml
+.codex/
+.claude/
+.local/share/uv/
+.local/share/mise/
+
+# Browsers and profiles
+.config/BraveSoftware/
+.config/zen/
+.mozilla/
+
+# Omarchy generated/runtime state
+.local/state/omarchy/
+.config/omarchy/current/
+.config/omarchy/plugins/
+.config/omarchy/shell.json.bak.*
+
+# Caches, databases, locks, backups and editor/runtime state
+.cache/
+**/.cache/
+**/*.bak
+**/*.bak.*
+**/*.lock
+**/*-wal
+**/*-shm
+**/*.sqlite
+**/*.sqlite-*
+**/history*
+**/session*
+**/Cache/
+**/GPUCache/
+**/Code Cache/
+**/Crash Reports/
+**/.git/
+
+# Never put host-specific monitor layouts in the portable baseline
+home/.config/hypr/monitors.conf
+
+# Installer/test generated data; fixtures must live outside this repository.
+__pycache__/
+*.pyc
+.ruff_cache/
+.pytest_cache/
+.local/state/omarchy-dotfiles/
+backups/
+test-results/
+
+# Reviewed policy documentation is not a credential file.
+!docs/secrets-policy.md

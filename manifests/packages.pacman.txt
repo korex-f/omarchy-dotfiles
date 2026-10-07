@@ -1,0 +1,75 @@
+# Curated explicitly installed native-repository packages observed 2026-09-27.
+# This is policy inventory, not the entire package database or a dependency dump.
+# Package versions are recorded in docs/current-system.md.
+
+# Omarchy desktop/session
+omarchy
+omarchy-keyring
+omarchy-settings
+hyprland
+quickshell
+uwsm
+hyprland-guiutils
+hyprland-preview-share-picker
+hyprsunset
+xdg-desktop-portal-gtk
+xdg-desktop-portal-hyprland
+kitty
+foot
+alacritty
+nautilus
+udiskie
+
+# Desktop capability providers
+networkmanager
+omasnap
+bluez
+bluez-tools
+bluez-utils
+pipewire
+pipewire-alsa
+pipewire-jack
+pipewire-pulse
+wireplumber
+upower
+power-profiles-daemon
+brightnessctl
+ddcutil
+grim
+slurp
+wl-clipboard
+wl-clip-persist
+
+# Development and terminal workflow
+git
+git-delta
+github-cli
+uv
+docker
+docker-buildx
+docker-compose
+lazydocker
+lazygit
+neovim
+zed
+starship
+zoxide
+fzf
+ripgrep
+fd
+eza
+bat
+jq
+yq
+mise-bin
+nodejs-lts-iron
+python-pip
+python-ruff
+ruff
+pyright
+terraform
+tmux
+tmuxp
+
+# Fonts explicitly selected on this host
+ttf-fira-code

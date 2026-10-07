@@ -1,0 +1,8 @@
+schema_version = 1
+profile_id = "workstation"
+components = ["system", "desktop", "kitty", "cli", "development", "nvim", "brave", "zen", "workflow"]
+optional_plugins = []
+themes = []
+steps = ["packages", "config", "plugins", "themes", "tools"]
+host_plugins = []
+files = []
